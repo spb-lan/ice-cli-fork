@@ -1,0 +1,19 @@
+{
+  "name": "spb-lan/ice-cli-fork",
+  "description": "Ice Cli",
+  "type": "module",
+  "license": "BSD-4-Clause",
+  "authors": [
+    {
+      "name": "emil",
+      "email": "ash_williams@mail.ru"
+    }
+  ],
+  "require": {
+    "spb-lan/ice-core-fork": "0.0.*"
+  },
+  "bin": [
+    "bin/ice-cli",
+    "bin/ice-exec-cli"
+  ]
+}
