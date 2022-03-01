@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'vendor' => 'ifacesoft',
-    'name' => 'ice-cli',
+    'vendor' => 'spb-lan',
+    'name' => 'ice-cli-fork',
     'namespace' => 'Ifacesoft\Ice\Cli\\',
     'alias' => 'Icli',
     'description' => 'Ice App Application',
@@ -26,16 +26,16 @@ return [
     ],
     'environments' => [
         'prod' => [
-            'pattern' => '/^ice-cli\.prod\.local$/',
+            'pattern' => '/^ice-cli-fork\.prod\.local$/',
         ],
         'test' => [
-            'pattern' => '/^ice-cli\.test\.local$/',
+            'pattern' => '/^ice-cli-fork\.test\.local$/',
         ],
         'dev' => [
-            'pattern' => '/^ice-cli\.dev\.local$/',
+            'pattern' => '/^ice-cli-fork\.dev\.local$/',
         ],
     ],
     'modules' => [
-        'ifacesoft/ice-core' => [],
+        'spb-lan/ice-core' => [],
     ]
 ];
