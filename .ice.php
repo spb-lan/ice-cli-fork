@@ -36,6 +36,6 @@ return [
         ],
     ],
     'modules' => [
-        'spb-lan/ice-core' => [],
+        'spb-lan/ice-core-fork' => [],
     ]
 ];
